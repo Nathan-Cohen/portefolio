@@ -1,0 +1,27 @@
+.social-media-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+    bottom: 0px;
+    background-color: powderblue;
+    align-items: center;
+}
+
+.icon-button{
+    color: black;
+    margin: 5px;
+}
+
+.aboutFooter{
+  color: black;
+  margin: 5px;
+}
+
+.icon-button i {
+  cursor: pointer;
+  font-size: 2.3rem;
+  height: 2.6rem;
+  text-align: center;
+  width: 2.6rem;
+}

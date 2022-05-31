@@ -1,0 +1,96 @@
+@media screen and (min-width: 991px) {
+  .breadcrumbtrail {
+    width: 60%;
+    float: left;
+    text-align: center;
+  }
+
+  .breadcrumbtrail:nth-child(2n) {
+    float: right;
+  }
+
+  .year-project {
+    width: 100px;
+    color: #378791;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -120px;
+    background-color: white;
+    position: absolute;
+  }
+
+  .horizontal-line-right {
+    border-top: 1px solid rgb(74 121 126 / 69%);
+    width: 27%;
+    margin-top: -105px;
+    margin-left: 54%;
+    border-right: 1px solid rgb(74 121 126 / 69%);
+    height: 176px;
+    position: absolute;
+  }
+
+  .horizontal-line-left {
+    border-top: 1px solid rgb(74 121 126 / 69%);
+    width: 20%;
+    margin-top: -105px;
+    margin-left: -20%;
+    border-left: 1px solid rgb(74 121 126 / 69%);
+    height: 176px;
+    position: absolute;
+  }
+
+  .horizontal-line-first {
+    width: 20%;
+    margin-top: -85px;
+    margin-left: 30%;
+    border-left: 1px solid rgb(74 121 126 / 69%);
+    height: 176px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .year-project {
+    width: 100px;
+    color: #378791;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 6%;
+    background-color: white;
+  }
+}
+
+.projects-title {
+  font-size: 60px;
+  margin: 30px 0 100px;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid powderblue !important;
+}
+
+h5.card-header {
+  background-color: powderblue;
+  border-bottom: 1px solid powderblue !important;
+}
+
+.year-project.right {
+  margin-left: 23%;
+}
+.year-project.left {
+  margin-left: 30%;
+}
+.year-project.first {
+  margin-left: 30%;
+}
+.year-project.first {
+  margin-left: 28%;
+}
+.card-projects{
+  margin: auto auto 20px auto;
+}
+.container-card-projects{
+  width: 90%;
+  margin: auto;
+}

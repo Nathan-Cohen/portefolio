@@ -1,0 +1,16 @@
+.container-navbar{
+    background-color: powderblue;
+}
+
+.navbar-nav a {
+    color: black !important;
+    font-size: 18px;
+}
+
+.navbar-nav a:focus {
+    color: white !important;
+}
+
+.navbar-nav a:hover {
+    color: white !important;
+}

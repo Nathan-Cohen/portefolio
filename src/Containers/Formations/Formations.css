@@ -1,0 +1,19 @@
+.formations-title {
+    font-size: 60px;
+    margin: 30px 0 40px;
+    text-align: center;
+}
+
+.card-formations{
+    margin: 10px;
+    
+}
+
+.row-formations {
+    --bs-gutter-x: 0 !important;
+}
+
+.container-card-formations{
+  width: 90% ;
+  margin: auto auto 20px auto;
+}
