@@ -8,3 +8,7 @@
     width: 90%;
     margin: auto auto 20px auto;
 }
+
+.container-card-experiences .card-text{
+    padding: 10px;
+}

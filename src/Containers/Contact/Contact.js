@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import FormContact from '../../Components/FormContact/FormContact'
 
 export default function Contact() {
   return (
@@ -11,7 +12,7 @@ export default function Contact() {
         </div>
         <ul className='listContact'>
           <li>Par mail : manathane.co@gmail.com</li>
-          <li>FORMULAIRE</li>
+          <FormContact />
         </ul>
       </div>
     </>
