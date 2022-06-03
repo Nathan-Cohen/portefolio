@@ -23,7 +23,7 @@ export default function FormContact() {
     };
 
     return (
-        <div className="container">
+        <>
             <form ref={form} className="row container-form" onSubmit={handleForm}>
               <h2>Envoyer moi un mail directement</h2>
               <label htmlFor="email">Votre adresse mail :</label>
@@ -43,6 +43,6 @@ export default function FormContact() {
 
               <Button type="submit">Envoyer</Button>
             </form>
-        </div>
+        </>
     )
 }

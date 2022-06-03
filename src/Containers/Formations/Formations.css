@@ -22,3 +22,10 @@
   width: 90% ;
   margin: auto auto 20px auto;
 }
+
+@media screen and (max-width: 991px) {
+    .card-formations{
+        margin: 0px;
+        padding: 5px !important;
+    }
+}
