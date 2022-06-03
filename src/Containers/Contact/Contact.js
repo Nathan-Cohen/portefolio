@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="container-contact">
         <div className="contact-title">
           <h1>Contactez-moi</h1>
-          <img src="/img/icons8-contacts-100.png"></img>
+          <img src="/img/icons8-contacts-100.png" alt="contact"></img>
         </div>
         <ul className='listContact'>
           <li>Par mail : manathane.co@gmail.com</li>

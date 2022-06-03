@@ -1,6 +1,6 @@
 import React from "react";
 import "./Formations.css";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 export default function Formations() {
   return (
@@ -9,7 +9,7 @@ export default function Formations() {
         <h1>
           Formations et <span style={{ color: "#4ec8d8" }}>diplômes</span>
         </h1>
-        <img src="/img/icons8-chapeau-de-diplôme-100.png"></img>
+        <img src="/img/icons8-chapeau-de-diplôme-100.png" alt="formations"></img>
       </div>
       <div className="row row-formations">
         <Card className="card-formations col-sm">
