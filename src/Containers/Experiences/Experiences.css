@@ -7,6 +7,7 @@
 .container-card-experiences{
     width: 90%;
     margin: auto auto 20px auto;
+    padding: 5px;
 }
 
 .container-card-experiences .card-text{

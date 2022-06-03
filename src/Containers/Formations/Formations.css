@@ -6,8 +6,13 @@
 
 .card-formations{
     margin: 10px;
-    
+    padding: 5px !important;
 }
+
+
+.container-card-formations .card-text{
+    padding: 10px;
+  }
 
 .row-formations {
     --bs-gutter-x: 0 !important;

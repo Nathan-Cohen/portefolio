@@ -89,6 +89,7 @@ h5.card-header {
 }
 .card-projects{
   margin: auto auto 20px auto;
+  padding: 5px;
 }
 .container-card-projects{
   width: 90%;

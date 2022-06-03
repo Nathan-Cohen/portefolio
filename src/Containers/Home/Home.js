@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 import Skills from "../Skills/Skills";
 import TypewriterHook from "../../Hooks/TypeWriter/TypeWriter";
@@ -12,7 +12,7 @@ export default function Home() {
           <h3>
             <TypewriterHook />
           </h3>
-          <img src="/img/icons8-futurama-bender-100.png"></img>
+          <img src="/img/icons8-futurama-bender-100.png" alt="home"></img>
         </div>
         <div className="about">
           <p>

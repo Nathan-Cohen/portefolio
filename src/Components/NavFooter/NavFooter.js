@@ -12,6 +12,7 @@ export default function NavFooter() {
           href="https://github.com/Nathan-Cohen"
           className="icon-button"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fa fa-github"></i>
         </a>
@@ -19,6 +20,7 @@ export default function NavFooter() {
           href="https://www.linkedin.com/in/cohen-nathan/"
           className="icon-button"
           target="_blank"
+          rel="noreferrer"
         >
           <i className="fa fa-linkedin"></i>
         </a>
@@ -26,7 +28,7 @@ export default function NavFooter() {
           href="/img/cv.pdf"
           className="icon-button"
         >
-          <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+          <i className="fa fa-file-pdf-o" aria-hidden="true"></i>
         </a>
       </div>
       <span className="aboutFooter">Designed and Developed by Nathan COHEN</span>

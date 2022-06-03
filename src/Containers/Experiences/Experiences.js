@@ -7,7 +7,7 @@ export default function Experiences() {
     <>
         <div className="experience-title">
           <h1>Mes <span style={{color: "#4ec8d8"}}>expériences</span></h1>
-          <img src="/img/icons8-compétences-de-développement-100.png"></img>
+          <img src="/img/icons8-compétences-de-développement-100.png" alt="experiences"></img>
         </div>
         
         <Card className='container-card-experiences'>
