@@ -9,8 +9,10 @@
 
 .navbar-nav a:focus {
     color: white !important;
+    border-bottom: 1px solid orange;
 }
 
 .navbar-nav a:hover {
     color: white !important;
+    border-bottom: 1px solid orange;
 }

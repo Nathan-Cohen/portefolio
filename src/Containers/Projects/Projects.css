@@ -20,21 +20,21 @@
   }
 
   .horizontal-line-right {
-    border-top: 1px solid rgb(74 121 126 / 69%);
+    border-top: 1px solid orange;
     width: 27%;
     margin-top: -105px;
     margin-left: 54%;
-    border-right: 1px solid rgb(74 121 126 / 69%);
+    border-right: 1px solid orange;
     height: 176px;
     position: absolute;
   }
 
   .horizontal-line-left {
-    border-top: 1px solid rgb(74 121 126 / 69%);
+    border-top: 1px solid orange;
     width: 20%;
     margin-top: -105px;
     margin-left: -20%;
-    border-left: 1px solid rgb(74 121 126 / 69%);
+    border-left: 1px solid orange;
     height: 176px;
     position: absolute;
   }
@@ -43,7 +43,7 @@
     width: 20%;
     margin-top: -85px;
     margin-left: 30%;
-    border-left: 1px solid rgb(74 121 126 / 69%);
+    border-left: 1px solid orange;
     height: 176px;
     position: absolute;
   }
@@ -61,6 +61,12 @@
   .projects-title {
     margin: 30px 0 0px !important;
   }
+
+  .year-project.left {
+    margin-left: 36%;
+    border-bottom: 1px solid orange;
+    margin-bottom: 10px;
+  }
 }
 
 .projects-title {
@@ -75,7 +81,9 @@
 
 h5.card-header {
   background-color: powderblue;
-  border-bottom: 1px solid powderblue !important;
+  border-bottom: 1px solid orange !important;
+  color: white;
+  font-weight: bold;
 }
 
 .year-project.right {

@@ -12,8 +12,8 @@ export default function Contact() {
       <div className="container-contact">
         <ul className='listContact'>
           <li>Par mail : manathane.co@gmail.com</li>
-          <FormContact />
         </ul>
+        <FormContact />
       </div>
     </>
   )

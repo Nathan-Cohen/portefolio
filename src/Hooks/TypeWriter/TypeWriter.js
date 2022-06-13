@@ -10,7 +10,7 @@ const TypewriterHook = () => {
   
     return (
       <>
-        <span style={{color: "rgb(78, 200, 216)"}}>{text} <Cursor /></span>
+        <span style={{color: "rgb(78, 200, 216)"}}>{text} </span><span style={{color: "orange"}}><Cursor /></span>
         
       </>
     )
