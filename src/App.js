@@ -1,6 +1,7 @@
 import './App.css';
 import {Routes, Route} from 'react-router-dom'
 import Projects from './Containers/Projects/Projects';
+import DetailsProject from './Containers/Projects/DetailsProjects/DetailsProject';
 import Contact from './Containers/Contact/Contact'
 import Experiences from './Containers/Experiences/Experiences';
 import Home from './Containers/Home/Home';
@@ -17,10 +18,11 @@ function App() {
 
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/projects/:slug' element={<Projects />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='/experiences' element={<Experiences />} />
           <Route path='/formations' element={<Formations />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/detailsProject/:slug' element={<DetailsProject />} />
         </Routes>
 
         <NavFooter />

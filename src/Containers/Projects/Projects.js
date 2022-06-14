@@ -1,6 +1,7 @@
 import React from "react";
 import "./Projects.css";
 import { Card, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom'
 
 export default function Projects() {
   return (
@@ -20,8 +21,10 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Création d'un robot avec Selenium</Card.Title>
               <Card.Text>
-                Langages : HTML5, CSS3, Python, JavaScript, Java Framework :
-                Django, AngularJS, Bootstrap et Selenium
+                <span className="criteria">
+                  Langages : HTML5, CSS3, Python, JavaScript, Java <br/>
+                  Framework : Django, AngularJS, Bootstrap et Selenium
+                </span>
                 <li>
                   Spécifier les scénarios du robot en collaboration avec les
                   chefs de projet
@@ -32,7 +35,6 @@ export default function Projects() {
                   site externe
                 </li>
               </Card.Text>
-              <Button variant="primary">Détails</Button>
             </Card.Body>
           </Card>
           <div className="horizontal-line-right"></div>
@@ -45,9 +47,11 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Connexion à l'API Stripe</Card.Title>
               <Card.Text>
-                Langages : HTML5, CSS3, Nodejs, JavaScript, Ajax et Bootstrap
-              </Card.Text>
-              <Button variant="primary">Détails</Button>
+                <span className="criteria">
+                  Langages : HTML5, CSS3, Nodejs, JavaScript <br/>
+                  Framework : Bootstrap <br/>
+                </span>
+              </Card.Text>              
             </Card.Body>
           </Card>
           <div className="horizontal-line-left"></div>
@@ -60,10 +64,13 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Générateur de PDF</Card.Title>
               <Card.Text>
-                Langages : HTML5, CSS3, Django, Python, JavaScript, Ajax,
-                Bootstrap
-              </Card.Text>
-              <Button variant="primary">Détails</Button>
+                <span className="criteria">
+                  Langages : HTML5, CSS3, Python, JavaScript <br/>
+                  Framework : Django et Bootstrap <br/>
+                  Base de donnée : MYSQL <br/>
+                </span>
+                Création d'un formulaire, récuperation des données du formulaire, création d'un template et export en PDF grace à la bibliothèque <strong>xhtml2pdf</strong>
+              </Card.Text>              
             </Card.Body>
           </Card>
           <div className="horizontal-line-right"></div>
@@ -74,12 +81,16 @@ export default function Projects() {
           <Card className="card-projects">
             <Card.Header as="h5">IFOCOP</Card.Header>
             <Card.Body>
-              <Card.Title> - Reseau social</Card.Title>
+              <Card.Title>Reseau social</Card.Title>
               <Card.Text>
-                Langages : HTML5, CSS3, Nodejs, MongoDB, JavaScript, Ajax,
-                Bootstrap et jQuery - Projet
-              </Card.Text>
-              <Button variant="primary">Détails</Button>
+                <span className="criteria">
+                  Langages : HTML5, CSS3, JavaScript <br/>
+                  Framework : Nodejs, Express.js et Bootstrap <br/>
+                  Base de donnée : MongoDB <br/>
+                </span>
+                Projet de fin de formation, réalisation d'un réseau social
+              </Card.Text>  
+              <Button as={Link} to="/detailsProject/reseau_social" >Détails</Button>            
             </Card.Body>
           </Card>
           <div className="horizontal-line-left"></div>
@@ -92,9 +103,12 @@ export default function Projects() {
             <Card.Body>
               <Card.Title>Chatbot Dansquelcompte</Card.Title>
               <Card.Text>
-                Langages : HTML5, CSS3, PHP, SQL, JavaScript, Ajax et jQuery
-              </Card.Text>
-              <Button variant="primary">Détails</Button>
+                <span className="criteria">
+                  Langages : HTML5, CSS3, PHP, SQL, JavaScript <br/>
+                  Base de donnée : MYSQL <br/>
+                </span>
+                Création d'un chatbot 
+              </Card.Text>              
             </Card.Body>
           </Card>
           <div className="horizontal-line-right"></div>
@@ -109,9 +123,12 @@ export default function Projects() {
                 Application de gestion de note de frais GSB
               </Card.Title>
               <Card.Text>
-                Langage : HTML5, CSS3, PHP, SQL, JavaScript, Ajax et jQuery
-              </Card.Text>
-              <Button variant="primary">Détails</Button>
+                <span className="criteria">
+                  Langage : HTML5, CSS3, PHP, SQL, JavaScript <br/>
+                  Framework : Cordova <br/>
+                  Base de donnée : MYSQL <br/>
+                </span>
+              </Card.Text>              
             </Card.Body>
           </Card>
         </div>

@@ -106,3 +106,9 @@ h5.card-header {
   width: 90%;
   margin: auto;
 }
+
+.criteria{
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+}
