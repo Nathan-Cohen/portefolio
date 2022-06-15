@@ -81,7 +81,7 @@ export default function Projects() {
           <Card className="card-projects">
             <Card.Header as="h5">IFOCOP</Card.Header>
             <Card.Body>
-              <Card.Title>Reseau social</Card.Title>
+              <Card.Title>Réseau social</Card.Title>
               <Card.Text>
                 <span className="criteria">
                   Langages : HTML5, CSS3, JavaScript <br/>
@@ -90,7 +90,7 @@ export default function Projects() {
                 </span>
                 Projet de fin de formation, réalisation d'un réseau social
               </Card.Text>  
-              <Button as={Link} to="/detailsProject/reseau_social" >Détails</Button>            
+              <Button as={Link} to="/detailsProject/Réseau social" >Détails du projet</Button>            
             </Card.Body>
           </Card>
           <div className="horizontal-line-left"></div>
@@ -108,7 +108,8 @@ export default function Projects() {
                   Base de donnée : MYSQL <br/>
                 </span>
                 Création d'un chatbot 
-              </Card.Text>              
+              </Card.Text>  
+              <Button as={Link} to="/detailsProject/Chatbot" >Détails du projet</Button>                 
             </Card.Body>
           </Card>
           <div className="horizontal-line-right"></div>
