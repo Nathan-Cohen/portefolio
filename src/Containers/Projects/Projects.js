@@ -67,7 +67,7 @@ export default function Projects() {
                 <span className="criteria">
                   Langages : HTML5, CSS3, Python, JavaScript <br/>
                   Framework : Django et Bootstrap <br/>
-                  Base de donnée : MYSQL <br/>
+                  Base de donnée : SQL <br/>
                 </span>
                 Création d'un formulaire, récuperation des données du formulaire, création d'un template et export en PDF grace à la bibliothèque <strong>xhtml2pdf</strong>
               </Card.Text>              
@@ -105,9 +105,9 @@ export default function Projects() {
               <Card.Text>
                 <span className="criteria">
                   Langages : HTML5, CSS3, PHP, SQL, JavaScript <br/>
-                  Base de donnée : MYSQL <br/>
+                  Base de donnée : SQL <br/>
                 </span>
-                Création d'un chatbot 
+                Création d'un chabot, connexion a une API (API Sirène) et import du plan comptable excel en base de données.
               </Card.Text>  
               <Button as={Link} to="/detailsProject/Chatbot" >Détails du projet</Button>                 
             </Card.Body>
@@ -127,7 +127,7 @@ export default function Projects() {
                 <span className="criteria">
                   Langage : HTML5, CSS3, PHP, SQL, JavaScript <br/>
                   Framework : Cordova <br/>
-                  Base de donnée : MYSQL <br/>
+                  Base de donnée : SQL <br/>
                 </span>
               </Card.Text>              
             </Card.Body>
